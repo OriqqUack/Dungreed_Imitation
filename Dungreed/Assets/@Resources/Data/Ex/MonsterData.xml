@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<MonsterDatas>
+	<MonsterData name="Snake_01" prefab="Snake_01" level="1" maxHp="100" attack="10" speed="3.2">
+		<DropData minCount="3">
+			<!--<DropItem type="gold" gold="100"/>-->
+			<Gold gold="100"/>
+			<Gem exp="100"/>
+			<Meat hp="30"/>
+			<Skill count="2"/>
+		</DropData>
+		<DropData maxCount="1">
+			<!-- Random = 5 이라면? -->
+			<Item prob="3" templateID="집행검" count="1" />
+			<Item prob="17" templateID="레어검" count="1" />
+			<Item prob="80" templateID="빨간물약" count="1"/>
+		</DropData>
+		<DropData maxCount="3">
+			<Item prob="3" templateID="집행검" count="1" />
+			<Item prob="17" templateID="레어검" count="1" />
+			<Item prob="80" templateID="빨간물약" count="1"/>
+		</DropData>
+		<DropData maxCount="1">
+			<DropBox prob="3">
+				<Item prob="3" templateID="집행검" count="1" />
+				<Item prob="17" templateID="레어검" count="1" />
+				<Item prob="80" templateID="빨간물약" count="1"/>
+			</DropBox>
+			<DropBox prob="17">
+				<Item prob="20" templateID="난쟁이검" count="1" />
+				<Item prob="20" templateID="레어검" count="1" />
+				<Item prob="60" templateID="빨간물약" count="2"/>
+			</DropBox>
+			<DropBox prob="80">
+				<Item prob="20" templateID="쓰레기검" count="1" />
+				<Item prob="30" templateID="쓰레기 방패" count="1" />
+				<Item prob="50" templateID="투명물약" count="1"/>
+			</DropBox>
+		</DropData>
+	</MonsterData>
+	<MonsterData name="Goblin_01" prefab="Goblin_01" level="2" maxHp="200" attack="10" speed="3.2">		
+	</MonsterData>
+</MonsterDatas>
