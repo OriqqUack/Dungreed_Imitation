@@ -1,0 +1,648 @@
+fileFormatVersion: 2
+guid: 1e2fe2aa865166b448409034b23fb138
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9006515875621102518
+    second: Door_Down copy_0
+  - first:
+      213: -236330696230648982
+    second: Door_Down copy_1
+  - first:
+      213: -7298437666365567750
+    second: Door_Down copy_2
+  - first:
+      213: 970593078348083324
+    second: Door_Down copy_3
+  - first:
+      213: -2985017523427902745
+    second: Door_Down copy_4
+  - first:
+      213: 7102498114459253689
+    second: Door_Down copy_5
+  - first:
+      213: -1112418832974068897
+    second: Door_Down copy_6
+  - first:
+      213: 8519700369033776825
+    second: Door_Down copy_7
+  - first:
+      213: -3157597953592826681
+    second: Door_Down copy_8
+  - first:
+      213: 2743329727315628933
+    second: Door_Down copy_9
+  - first:
+      213: -8523099543960684146
+    second: Door_Down copy_10
+  - first:
+      213: 4271627574457052509
+    second: Door_Down copy_11
+  - first:
+      213: 2766570909869072881
+    second: Door_Down copy_12
+  - first:
+      213: -135207054211452168
+    second: Door_Down copy_13
+  - first:
+      213: -2600262920679794798
+    second: Door_Down copy_14
+  - first:
+      213: 3412092705127901024
+    second: Door_Down copy_15
+  - first:
+      213: -3100211055381235449
+    second: Door_Down copy_16
+  - first:
+      213: 2272426935633399005
+    second: Door_Down copy_17
+  - first:
+      213: -982592847195715859
+    second: Door_Down copy_18
+  - first:
+      213: 9034637582050516255
+    second: Door_Down copy_19
+  - first:
+      213: -4959516625366605192
+    second: Door_Down copy_20
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Door_Down copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 4
+        width: 13
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3ef4668729dfc70800000000000000
+      internalID: 9006515875621102518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_1
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 4
+        width: 56
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a63c6a1eb7268bcf0800000000000000
+      internalID: -236330696230648982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_2
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 0
+        width: 427
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afc03f87c9db6ba90800000000000000
+      internalID: -7298437666365567750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_3
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c70f368234d387d00800000000000000
+      internalID: 970593078348083324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_4
+      rect:
+        serializedVersion: 2
+        x: 962
+        y: 4
+        width: 189
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ea73c3b0661396d0800000000000000
+      internalID: -2985017523427902745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_5
+      rect:
+        serializedVersion: 2
+        x: 1154
+        y: 4
+        width: 189
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bbb93a8764219260800000000000000
+      internalID: 7102498114459253689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_6
+      rect:
+        serializedVersion: 2
+        x: 1345
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f53402b17f4ef80f0800000000000000
+      internalID: -1112418832974068897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_7
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9bec509a85e0c3670800000000000000
+      internalID: 8519700369033776825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_8
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c469901465fd24d0800000000000000
+      internalID: -3157597953592826681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_9
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 4
+        width: 380
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 583da6a2ad3421620800000000000000
+      internalID: 2743329727315628933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_10
+      rect:
+        serializedVersion: 2
+        x: 2303
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e89fde04f1ed7b980800000000000000
+      internalID: -8523099543960684146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_11
+      rect:
+        serializedVersion: 2
+        x: 2495
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5da64c95aed74b30800000000000000
+      internalID: 4271627574457052509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_12
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 4
+        width: 189
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f1eca8a595d46620800000000000000
+      internalID: 2766570909869072881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_13
+      rect:
+        serializedVersion: 2
+        x: 2879
+        y: 4
+        width: 189
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f2799a86e5af1ef0800000000000000
+      internalID: -135207054211452168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_14
+      rect:
+        serializedVersion: 2
+        x: 3070
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 297d24286a20aebd0800000000000000
+      internalID: -2600262920679794798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_15
+      rect:
+        serializedVersion: 2
+        x: 3262
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 067a9ddbc303a5f20800000000000000
+      internalID: 3412092705127901024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_16
+      rect:
+        serializedVersion: 2
+        x: 3454
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70933438876d9f4d0800000000000000
+      internalID: -3100211055381235449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_17
+      rect:
+        serializedVersion: 2
+        x: 3646
+        y: 4
+        width: 190
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddc45741248498f10800000000000000
+      internalID: 2272426935633399005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_18
+      rect:
+        serializedVersion: 2
+        x: 3838
+        y: 4
+        width: 276
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de64f00f2012d52f0800000000000000
+      internalID: -982592847195715859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_19
+      rect:
+        serializedVersion: 2
+        x: 4142
+        y: 4
+        width: 121
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1dd388630b716d70800000000000000
+      internalID: 9034637582050516255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Down copy_20
+      rect:
+        serializedVersion: 2
+        x: 4371
+        y: 4
+        width: 43
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8722167e7e14c2bb0800000000000000
+      internalID: -4959516625366605192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Door_Down copy_0: 9006515875621102518
+      Door_Down copy_1: -236330696230648982
+      Door_Down copy_10: -8523099543960684146
+      Door_Down copy_11: 4271627574457052509
+      Door_Down copy_12: 2766570909869072881
+      Door_Down copy_13: -135207054211452168
+      Door_Down copy_14: -2600262920679794798
+      Door_Down copy_15: 3412092705127901024
+      Door_Down copy_16: -3100211055381235449
+      Door_Down copy_17: 2272426935633399005
+      Door_Down copy_18: -982592847195715859
+      Door_Down copy_19: 9034637582050516255
+      Door_Down copy_2: -7298437666365567750
+      Door_Down copy_20: -4959516625366605192
+      Door_Down copy_3: 970593078348083324
+      Door_Down copy_4: -2985017523427902745
+      Door_Down copy_5: 7102498114459253689
+      Door_Down copy_6: -1112418832974068897
+      Door_Down copy_7: 8519700369033776825
+      Door_Down copy_8: -3157597953592826681
+      Door_Down copy_9: 2743329727315628933
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -39,19 +39,20 @@ public class GameScene : MonoBehaviour
 
     void StartLoaded()
     {
-        Managers.Data.Init();
+        #region 다른 코드
+        /*Managers.Data.Init();
 
         _spawningPool = gameObject.AddComponent<SpawningPool>();
 
         var player = Managers.Object.Spawn<PlayerController>(Vector3.zero);
 
-        for(int i = 0; i< 10; i++)
+       *//* for(int i = 0; i< 10; i++)
         {
             Vector3 randPos = new Vector2(Random.Range(-5, 5), Random.Range(-5, 5));
             MonsterController mc = Managers.Object.Spawn<MonsterController>(randPos,Random.Range(0, 2));
             mc.transform.position = new Vector2(Random.Range(-5,5), Random.Range(-5,5));
         }
-
+*//*
         //var joystick = Managers.Resource.Instantiate("UI_Joystick.prefab");
         //joystick.name = "@UI_Joystick";
 
@@ -63,10 +64,11 @@ public class GameScene : MonoBehaviour
         //Data Test
         //Managers.Data.Init();
 
-        /*foreach(var playerData in Managers.Data.PlayerDic.Values)
+        *//*foreach(var playerData in Managers.Data.PlayerDic.Values)
         {
             Debug.Log($"Lv1 : {playerData.level}, Hp{playerData.maxHp}");
         }*/
+        #endregion
     }
 
     // Update is called once per frame

@@ -1,0 +1,748 @@
+fileFormatVersion: 2
+guid: bdade0381730de14cba43ecb4012f50a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5986533437446373517
+    second: Door_Right copy_2
+  - first:
+      213: 1312618778479055868
+    second: Door_Right copy_3
+  - first:
+      213: -2719812913596550797
+    second: Door_Right copy_4
+  - first:
+      213: 7240090133862088511
+    second: Door_Right copy_5
+  - first:
+      213: 6015574418799096824
+    second: Door_Right copy_6
+  - first:
+      213: -5003393880712559641
+    second: Door_Right copy_7
+  - first:
+      213: 5813495273907999134
+    second: Door_Right copy_8
+  - first:
+      213: 7759514034545563153
+    second: Door_Right copy_9
+  - first:
+      213: 8991410267999539966
+    second: Door_Right copy_10
+  - first:
+      213: 7024006667863091761
+    second: Door_Right copy_11
+  - first:
+      213: -1771921060384013757
+    second: Door_Right copy_12
+  - first:
+      213: -7333796749979848628
+    second: Door_Right copy_13
+  - first:
+      213: 8094027541664731260
+    second: Door_Right copy_14
+  - first:
+      213: 6818580932815752117
+    second: Door_Right copy_15
+  - first:
+      213: 7709299149881058483
+    second: Door_Right copy_16
+  - first:
+      213: 5245686558503157077
+    second: Door_Right copy_17
+  - first:
+      213: 2754962728262412499
+    second: Door_Right copy_18
+  - first:
+      213: -4914104357831795537
+    second: Door_Right copy_19
+  - first:
+      213: 770916940957718940
+    second: Door_Right copy_20
+  - first:
+      213: -3776422348504580840
+    second: Door_Right copy_23
+  - first:
+      213: -1638783635716503709
+    second: Door_Right copy_24
+  - first:
+      213: 3715112887715459440
+    second: Door_Right copy_0
+  - first:
+      213: 1030812825144723620
+    second: Door_Right copy_1
+  - first:
+      213: -1119100083247194869
+    second: Door_Right copy_21
+  - first:
+      213: 2287978307036214798
+    second: Door_Right copy_22
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Door_Right copy_2
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 2
+        width: 59
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d804dfe7170741350800000000000000
+      internalID: 5986533437446373517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_3
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf350c013db573210800000000000000
+      internalID: 1312618778479055868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_4
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371be85b098414ad0800000000000000
+      internalID: -2719812913596550797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_5
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 4
+        width: 60
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3ff8aafd97f97460800000000000000
+      internalID: 7240090133862088511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_6
+      rect:
+        serializedVersion: 2
+        x: 438
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f37270ef0d9b7350800000000000000
+      internalID: 6015574418799096824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_7
+      rect:
+        serializedVersion: 2
+        x: 512
+        y: 6
+        width: 59
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3c3cc46cf509ab0800000000000000
+      internalID: -5003393880712559641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_8
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 6
+        width: 59
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91d2b0862fada050800000000000000
+      internalID: 5813495273907999134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_9
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1161fba17e45fab60800000000000000
+      internalID: 7759514034545563153
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_10
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 6
+        width: 60
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef299ed0008e7cc70800000000000000
+      internalID: 8991410267999539966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_11
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13a64f189d84a7160800000000000000
+      internalID: 7024006667863091761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_12
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 5
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34207c10f2fd867e0800000000000000
+      internalID: -1771921060384013757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_13
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40798646be193a90800000000000000
+      internalID: -7333796749979848628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_14
+      rect:
+        serializedVersion: 2
+        x: 1015
+        y: 4
+        width: 60
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7097274a23c35070800000000000000
+      internalID: 8094027541664731260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_15
+      rect:
+        serializedVersion: 2
+        x: 1088
+        y: 4
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb0cb46b3770ae50800000000000000
+      internalID: 6818580932815752117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_16
+      rect:
+        serializedVersion: 2
+        x: 1160
+        y: 3
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b4a1ef2bbeecfa60800000000000000
+      internalID: 7709299149881058483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_17
+      rect:
+        serializedVersion: 2
+        x: 1231
+        y: 3
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55d3f92d12c6cc840800000000000000
+      internalID: 5245686558503157077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_18
+      rect:
+        serializedVersion: 2
+        x: 1303
+        y: 3
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3d8a58341089b3620800000000000000
+      internalID: 2754962728262412499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_19
+      rect:
+        serializedVersion: 2
+        x: 1376
+        y: 2
+        width: 59
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac9c326f189dcbb0800000000000000
+      internalID: -4914104357831795537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_20
+      rect:
+        serializedVersion: 2
+        x: 1443
+        y: 0
+        width: 67
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c999d119fd8d2ba00800000000000000
+      internalID: 770916940957718940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_23
+      rect:
+        serializedVersion: 2
+        x: 1369
+        y: 115
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81db983e1e3779bc0800000000000000
+      internalID: -3776422348504580840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_24
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 115
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367056947fed149e0800000000000000
+      internalID: -1638783635716503709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_0
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 0
+        width: 59
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07171c4ec7bbe8330800000000000000
+      internalID: 3715112887715459440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_1
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 0
+        width: 59
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a80ba09dce2e4e00800000000000000
+      internalID: 1030812825144723620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_21
+      rect:
+        serializedVersion: 2
+        x: 1519
+        y: 0
+        width: 59
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0dd0fd47682870f0800000000000000
+      internalID: -1119100083247194869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Door_Right copy_22
+      rect:
+        serializedVersion: 2
+        x: 1590
+        y: 0
+        width: 59
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0671b4e52880cf10800000000000000
+      internalID: 2287978307036214798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Door_Right copy_0: 3715112887715459440
+      Door_Right copy_1: 1030812825144723620
+      Door_Right copy_10: 8991410267999539966
+      Door_Right copy_11: 7024006667863091761
+      Door_Right copy_12: -1771921060384013757
+      Door_Right copy_13: -7333796749979848628
+      Door_Right copy_14: 8094027541664731260
+      Door_Right copy_15: 6818580932815752117
+      Door_Right copy_16: 7709299149881058483
+      Door_Right copy_17: 5245686558503157077
+      Door_Right copy_18: 2754962728262412499
+      Door_Right copy_19: -4914104357831795537
+      Door_Right copy_2: 5986533437446373517
+      Door_Right copy_20: 770916940957718940
+      Door_Right copy_21: -1119100083247194869
+      Door_Right copy_22: 2287978307036214798
+      Door_Right copy_23: -3776422348504580840
+      Door_Right copy_24: -1638783635716503709
+      Door_Right copy_3: 1312618778479055868
+      Door_Right copy_4: -2719812913596550797
+      Door_Right copy_5: 7240090133862088511
+      Door_Right copy_6: 6015574418799096824
+      Door_Right copy_7: -5003393880712559641
+      Door_Right copy_8: 5813495273907999134
+      Door_Right copy_9: 7759514034545563153
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

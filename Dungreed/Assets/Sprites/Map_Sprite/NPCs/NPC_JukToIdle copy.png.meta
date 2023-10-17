@@ -1,0 +1,623 @@
+fileFormatVersion: 2
+guid: cb70ba091b17c794e9412ab19f09d498
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6026463618401916384
+    second: NPC_JukToIdle copy_0
+  - first:
+      213: 8450961618574075858
+    second: NPC_JukToIdle copy_1
+  - first:
+      213: 5905598006893807846
+    second: NPC_JukToIdle copy_2
+  - first:
+      213: 4485071778718029366
+    second: NPC_JukToIdle copy_3
+  - first:
+      213: -873274711969169642
+    second: NPC_JukToIdle copy_4
+  - first:
+      213: -5797067081509682381
+    second: NPC_JukToIdle copy_5
+  - first:
+      213: -3011267880297155368
+    second: NPC_JukToIdle copy_6
+  - first:
+      213: 5642007945862271051
+    second: NPC_JukToIdle copy_7
+  - first:
+      213: 4989000835055128504
+    second: NPC_JukToIdle copy_8
+  - first:
+      213: 3255111348423783079
+    second: NPC_JukToIdle copy_9
+  - first:
+      213: -4162700847898133338
+    second: NPC_JukToIdle copy_10
+  - first:
+      213: -4346654917510242240
+    second: NPC_JukToIdle copy_11
+  - first:
+      213: -3449576824730404267
+    second: NPC_JukToIdle copy_12
+  - first:
+      213: 8502151536298233500
+    second: NPC_JukToIdle copy_13
+  - first:
+      213: 7314048345131838650
+    second: NPC_JukToIdle copy_14
+  - first:
+      213: 520741313522772462
+    second: NPC_JukToIdle copy_15
+  - first:
+      213: -2520227266431113477
+    second: NPC_JukToIdle copy_16
+  - first:
+      213: 7312723832818563138
+    second: NPC_JukToIdle copy_17
+  - first:
+      213: 4771277308591199319
+    second: NPC_JukToIdle copy_18
+  - first:
+      213: -2177008119307862749
+    second: NPC_JukToIdle copy_19
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e559aa3bbc42a350800000000000000
+      internalID: 6026463618401916384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_1
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d7619521d8d74570800000000000000
+      internalID: 8450961618574075858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_2
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e8092b1916e4f150800000000000000
+      internalID: 5905598006893807846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_3
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6361e92150d2e3e30800000000000000
+      internalID: 4485071778718029366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_4
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61ffeb9b64181e3f0800000000000000
+      internalID: -873274711969169642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_5
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 333418b143eac8fa0800000000000000
+      internalID: -5797067081509682381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_6
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d4385731d3d536d0800000000000000
+      internalID: -3011267880297155368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_7
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b405d0985507c4e40800000000000000
+      internalID: 5642007945862271051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_8
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf869d93dd7c3540800000000000000
+      internalID: 4989000835055128504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_9
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 111
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a2742b668a7c2d20800000000000000
+      internalID: 3255111348423783079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ac70de32ad1b36c0800000000000000
+      internalID: -4162700847898133338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_11
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 040e890d1649da3c0800000000000000
+      internalID: -4346654917510242240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_12
+      rect:
+        serializedVersion: 2
+        x: 252
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55a36809724a020d0800000000000000
+      internalID: -3449576824730404267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_13
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e0993a6c5bdf570800000000000000
+      internalID: 8502151536298233500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_14
+      rect:
+        serializedVersion: 2
+        x: 504
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abced99e738b08560800000000000000
+      internalID: 7314048345131838650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_15
+      rect:
+        serializedVersion: 2
+        x: 630
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee92564377b0a3700800000000000000
+      internalID: 520741313522772462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_16
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6ae1767aa560dd0800000000000000
+      internalID: -2520227266431113477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_17
+      rect:
+        serializedVersion: 2
+        x: 882
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 248feabd4930c7560800000000000000
+      internalID: 7312723832818563138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_18
+      rect:
+        serializedVersion: 2
+        x: 1008
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 754d57fce6bf63240800000000000000
+      internalID: 4771277308591199319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: NPC_JukToIdle copy_19
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 0
+        width: 126
+        height: 111
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32d738756a6b9c1e0800000000000000
+      internalID: -2177008119307862749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      NPC_JukToIdle copy_0: 6026463618401916384
+      NPC_JukToIdle copy_1: 8450961618574075858
+      NPC_JukToIdle copy_10: -4162700847898133338
+      NPC_JukToIdle copy_11: -4346654917510242240
+      NPC_JukToIdle copy_12: -3449576824730404267
+      NPC_JukToIdle copy_13: 8502151536298233500
+      NPC_JukToIdle copy_14: 7314048345131838650
+      NPC_JukToIdle copy_15: 520741313522772462
+      NPC_JukToIdle copy_16: -2520227266431113477
+      NPC_JukToIdle copy_17: 7312723832818563138
+      NPC_JukToIdle copy_18: 4771277308591199319
+      NPC_JukToIdle copy_19: -2177008119307862749
+      NPC_JukToIdle copy_2: 5905598006893807846
+      NPC_JukToIdle copy_3: 4485071778718029366
+      NPC_JukToIdle copy_4: -873274711969169642
+      NPC_JukToIdle copy_5: -5797067081509682381
+      NPC_JukToIdle copy_6: -3011267880297155368
+      NPC_JukToIdle copy_7: 5642007945862271051
+      NPC_JukToIdle copy_8: 4989000835055128504
+      NPC_JukToIdle copy_9: 3255111348423783079
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
