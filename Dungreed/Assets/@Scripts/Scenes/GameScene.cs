@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class GameScene : MonoBehaviour
 {
-    void Start()
+    void Awake()
     {
         Managers.Resource.LoadAllAsync<Object>("PreLoad", (key, count, totalCount) =>
         {
@@ -69,6 +69,8 @@ public class GameScene : MonoBehaviour
             Debug.Log($"Lv1 : {playerData.level}, Hp{playerData.maxHp}");
         }*/
         #endregion
+
+
     }
 
     // Update is called once per frame

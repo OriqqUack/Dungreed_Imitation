@@ -7,6 +7,7 @@ public class BaseController : MonoBehaviour
 {
     public ObjectType ObjectType { get; protected set; } // 나만 세팅.
 
+
     void Awake()
     {
         Init();

@@ -39,6 +39,26 @@ public class ResourceManager
         return go;
     }
 
+    public GameObject Instantiate2D(string key, Vector3 spawnPos, bool pooling = false)
+    {
+        GameObject prefab = Load<GameObject>($"{key}");
+        if (prefab == null)
+        {
+            Debug.Log($"Failed to load prefab : {key}");
+            return null;
+        }
+
+        //Pooling
+        if (pooling)
+        {
+            return Managers.Pool.Pop(prefab);
+        }
+
+        GameObject go = Object.Instantiate(prefab, spawnPos , new Quaternion(0,0,0,0));
+        go.name = prefab.name;
+        return go;
+    }
+
     public void Destroy(GameObject go)
     {
         if (go == null)

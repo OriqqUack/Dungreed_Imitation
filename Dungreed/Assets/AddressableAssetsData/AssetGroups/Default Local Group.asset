@@ -16,7 +16,79 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 26878be4745d23942938385e54a0fc6b
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: e5a109869659e0744b25716c0c27ba5c
+    m_Address: L_Stage1_9.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: e0a7e0b2f7dd0014e90a310b8b9c6ee0
+    m_Address: L_Stage1_12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: ac06ea14dfbe7604d83c0d7a42412d9c
+    m_Address: M_Start.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: 7b83e1d6a3009be4196d5f05bb4923db
+    m_Address: M_Empty.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: 72282ac3421fea64e88b8038ea10c72b
+    m_Address: M_Stage1_8.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: ac71dba74ba78394faceae1fa0c36047
+    m_Address: M_Stage1-11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: ecb0faaa7e4257f488a4ad9c17092177
+    m_Address: M_Stage1_5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: 08dc20d6f7241d64aadc1e8e2f9be525
+    m_Address: S_Stage1_7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: 3c7aeaa7b26918d4aad9691d7bc85d12
+    m_Address: S_Stage1_2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: e40dfbf966e3ca74aa2c69066452ea5e
+    m_Address: S_Stage1_6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: 3805c49355ea24940a3ff2836f9bf239
+    m_Address: S_Stage1_4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
+  - m_GUID: 62a5f8a68ad8f2f4d9c72add1ac050c5
+    m_Address: S_Stage1_10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - preload
+    - PreLoad
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 0608fb7ca7d744343946aab250bf985d, type: 2}
   m_SchemaSet:
