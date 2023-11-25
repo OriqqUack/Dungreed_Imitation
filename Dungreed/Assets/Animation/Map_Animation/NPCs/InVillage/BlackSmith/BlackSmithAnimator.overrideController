@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: BlackSmithAnimator
+  m_Controller: {fileID: 9100000, guid: b5f6134f93f0a8846bbb8d87c85bd1c5, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: a463868266a52b742b21619506c8e1c0, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: 8f7215cefb3dfa643a4853df30feb674, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 33505dc176857774b81fbbafc948aea6, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: eb53a7db264eca74cba4e12ac980d923, type: 2}

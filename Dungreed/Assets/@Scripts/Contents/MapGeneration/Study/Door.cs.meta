@@ -3,7 +3,26 @@ guid: 191edf84b9a41374e90cfe8179416c9d
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - WallTilemap: {instanceID: 0}
+  - BackTilemap: {instanceID: 0}
+  - MoveableTilemap: {instanceID: 0}
+  - MainWallTilemap: {instanceID: 0}
+  - MainBackTilemap: {instanceID: 0}
+  - MainMoveableTilemap: {instanceID: 0}
+  - tile: {instanceID: 0}
+  - StartPos: {instanceID: 0}
+  - EndPos: {instanceID: 0}
+  - NextRoom: {instanceID: 0}
+  - coll: {instanceID: 0}
+  - collision: {instanceID: 0}
+  - ParentStage: {instanceID: 0}
+  - TeleportPos: {instanceID: 0}
+  - SealStoneAni: {instanceID: 0}
+  - SealStoneOpenAni: {fileID: 7400000, guid: a9f8512b3da938f4c897371fc92759ca, type: 2}
+  - SealStoneCloseAni: {fileID: 7400000, guid: 65f3d0589b96aca42a9c1272c3d66336, type: 2}
+  - Doorparticle: {instanceID: 0}
+  - MapInfoPos: {instanceID: 0}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!221 &22100000
+AnimatorOverrideController:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Stage2_Gate
+  m_Controller: {fileID: 9100000, guid: 77a9c2a9bbb91b940a8a58135d001533, type: 2}
+  m_Clips:
+  - m_OriginalClip: {fileID: 7400000, guid: 9ae51dbdcac0be44bbbfc6dddddbd7a9, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: e6a3c6add0c8d6b40ba9bcc484e6e2d1, type: 2}
+  - m_OriginalClip: {fileID: 7400000, guid: 0cbe5f1610de09d4f818c95091e6cabb, type: 2}
+    m_OverrideClip: {fileID: 7400000, guid: c23c69ddcb0f3d945b2eaccf3b8122a8, type: 2}

@@ -1,12 +1,13 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 
 public class GameScene : MonoBehaviour
 {
     void Awake()
     {
-        Managers.Resource.LoadAllAsync<Object>("PreLoad", (key, count, totalCount) =>
+        /*Managers.Resource.LoadAllAsync<Object>("PreLoad", (key, count, totalCount) =>
         {
             //(비동기)함수가 로딩이 끝나고 안으로 들어오는 것이기 때문에
             Debug.Log($"{key} {count}/{totalCount}");
@@ -15,8 +16,9 @@ public class GameScene : MonoBehaviour
             {
                 StartLoaded();
             }
-        });
+        });*/
         //여기서 StartLoaded()는 하면 안된다. // 언젠가 로딩이 끝나면 testfunc를 호출 해줌.
+        StartLoaded();
     }
 
     /*void StartLoaded()
@@ -69,7 +71,9 @@ public class GameScene : MonoBehaviour
             Debug.Log($"Lv1 : {playerData.level}, Hp{playerData.maxHp}");
         }*/
         #endregion
-
+        Managers.Map.InitSetting();
+        Managers.Map.NowStage = MapManager.STAGE.Stage1;
+        Managers.Map.NowFloor = 1;
 
     }
 

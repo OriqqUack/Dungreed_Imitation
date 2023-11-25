@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MapManager : Singleton<MapManager>
+public class MapManager 
 {
     public enum STAGE { Stage1, Stage2, Stage3, Stage4, StageMax };
     public enum ROOMTYPE { Start, Restaurant, Shop, End, Boss, NOMAL, MAX };
@@ -86,7 +86,6 @@ public class MapManager : Singleton<MapManager>
                 {
                     rooms[x + (y * size)]?.GetComponent<BaseStage>().Initsetting();
                 }
-
             }
         }
     }
@@ -110,7 +109,6 @@ public class MapManager : Singleton<MapManager>
         if (roomclass == ROOMCLASS.SMALL) return smallroom[rnd];
         else if (roomclass == ROOMCLASS.MEDIUM) return mediumroom[rnd];
         else return largeroom[rnd];
-
     }
 
 
@@ -118,19 +116,6 @@ public class MapManager : Singleton<MapManager>
     {
         SpecialRoom = new GameObject[(int)ROOMTYPE.MAX];
     }
-    //public void InitSetting(StageData[] arr, int size)
-    //{
-    //    LinkedData = arr;
-    //    arrsize = size;
-    //    for(int i=0;i<size*size;i++)
-    //    {
-    //        if (arr[i] != null)
-    //        {
-
-    //        }
-    //    }
-
-    //}
 
     //현재 만들어져 있는  스테이지를 모두 없애주고 새로운 방들을 만들어 준다.
     public void NextStage()

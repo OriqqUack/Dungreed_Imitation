@@ -3,19 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using System;
 using UnityEngine.Tilemaps;
+using System.Net;
 
 
-/////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////
-/////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
+///////////////////////////////////////////////////////////////////////////////
 ///조민익 작업
 ///모든 던전의 방들의 가장 최상위 베이스클래스
 ///방의 모든 요소들(문, 함정, 몬스터 스폰 포인트, 상자스폰, 빠른이동 비석)을 관리하고
 ///방이 시작되고 클리어되는 것에 맞춰서 모든 요소들을 통제 합니다.
-/////////////////////////////////////////////////////////////////////
-
-
-
+///////////////////////////////////////////////////////////////////////////////
 public class BaseStage : MonoBehaviour
 {
     public enum TileElement { BackGround, Wall, Moveable, Door, ElementMax };
@@ -143,12 +141,16 @@ public class BaseStage : MonoBehaviour
         for (Door.DoorType i = Door.DoorType.Up; i < Door.DoorType.DoorMax; i++)
         {
             door[(int)i] = null;
-        }
+        } // init
 
+        int cnt = 0;
         Door[] temp = GetComponentsInChildren<Door>();
+        Debug.Log(temp.Length);
         foreach (var i in temp)
         {
             door[(int)i.type] = i;
+            Debug.Log(i.gameObject.name + cnt);
+            cnt++;
             i.gameObject.SetActive(false);
         }
     }
@@ -157,7 +159,6 @@ public class BaseStage : MonoBehaviour
     public void Initsetting()
     {
         //70%확률로 텔레포터 활성화
-
         int rand = UnityEngine.Random.Range(0, 100);
         IsTeleporter = (rand <= 70);
 
@@ -220,7 +221,7 @@ public class BaseStage : MonoBehaviour
         if (type == MapManager.ROOMTYPE.Start)
         {
 
-            StartPos = transform.Find($"{MapManager.Instance.NowStage}StartGate");
+            StartPos = transform.Find($"{Managers.Map.NowStage}StartGate");
 
             if (playerobj != null)
             {
@@ -231,7 +232,7 @@ public class BaseStage : MonoBehaviour
         }
         else if (type == MapManager.ROOMTYPE.End)
         {
-            EndPos = transform.Find($"{MapManager.Instance.NowStage}EndGate");
+            EndPos = transform.Find($"{Managers.Map.NowStage}EndGate");
 
         }
 
@@ -363,8 +364,6 @@ public class BaseStage : MonoBehaviour
                     }
 
                 }*/
-
-
             }
         }
     }
@@ -536,7 +535,7 @@ public class BaseStage : MonoBehaviour
 
     private void Awake()
     {
-        playerobj = GameObject.Find("Player");
+        //playerobj = GameObject.Find("Player");
         //Teleporter = GetComponentInChildren<DungeonTeleporter>();
         bottomleft = transform.Find("BottomLeft");
         topright = transform.Find("TopRight");
@@ -577,7 +576,6 @@ public class BaseStage : MonoBehaviour
                 }
                 else
                 {
-
                     break;
                 }*/
             }

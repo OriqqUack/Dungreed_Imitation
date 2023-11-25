@@ -1,7 +1,9 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Drawing;
 using UnityEngine;
+using static Unity.IO.LowLevel.Unsafe.AsyncReadManagerMetrics;
 
 public class MapSpawner : Singleton<MapSpawner>
 {
@@ -58,9 +60,9 @@ public class MapSpawner : Singleton<MapSpawner>
     [SerializeField]
     public CurrentValue current = new CurrentValue();
 
-    public MapManager mapmanager;
+    bool[] dir = new bool[(int)Door.DoorType.DoorMax];
 
-    private void Awake()
+    void Awake()
     {
         InitSetting();
     }
@@ -92,14 +94,14 @@ public class MapSpawner : Singleton<MapSpawner>
         StageSetting();
 
         //짝수번째 층에서는 보스방이 나타난다.
-        if (mapmanager.NowFloor % 2 == 0)
+        if (Managers.Map.NowFloor % 2 == 0)
         {
-            SetBossRoom(mapmanager.NowStage);
+            SetBossRoom(Managers.Map.NowStage);
         }
 
         ShowMaps();
 
-        mapmanager.StageSetting(current.MapObjList, option.MaxListSize);
+        Managers.Map.StageSetting(current.MapObjList, option.MaxListSize);
 
         //맵이 만들어 지면 전체맵도 만든다
         //DungeonMapUI.Instance.Body.SetRoomTiles(current.MapObjList, option.MaxListSize);
@@ -108,133 +110,29 @@ public class MapSpawner : Singleton<MapSpawner>
     }
 
 
+    #region StageSetting
     //시작위치, 레스토랑, 상점, 제단, 보스방 등의 방을 만들어 준다.
     public void StageSetting()
     {
-        bool[] dir = new bool[(int)Door.DoorType.DoorMax];
+        
         //direction.Initialize();
         bool flag = false;
         int size = option.MaxListSize;
+
+        StageSettingStart(size, flag);
+        
+
+    }
+
+    void StageSettingStart(int size, bool flag)
+    {
         for (int i = 0; i < size * size; i++)
         {
-            int count = 0;
             flag = false;
 
-            for (int b = 0; b < dir.Length; b++)
-            {
-                dir[b] = false;
-            }
+            DirDoorInit();
 
-            if (current.Maplist[i] != null)
-            {
-                //처음은 시작방
-                if (current.Maplist[i].Num == 0)
-                {
-                    GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.Start);
-                    current.MapObjList[i] = GameObject.Instantiate(obj);
-                }
-                else if (current.Maplist[i].Num == current.NowCount - 1)//마지막 방은 끝방으로 한다.
-                {
-                    GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.End);
-                    current.MapObjList[i] = GameObject.Instantiate(obj);
-                }
-                else//0번방과 마지막 방을 빼고는 연결된 방의 개수(연결정보가 존재하는 문의 개수)에 따라 방의 클래스를 랜덤으로 정해준다.
-                {
-                    if (current.Maplist[i].RightMap != null)
-                    {
-                        dir[(int)Door.DoorType.Right] = true;
-                        count++;
-                    }
-                    if (current.Maplist[i].LeftMap != null)
-                    {
-                        dir[(int)Door.DoorType.Left] = true;
-                        count++;
-                    }
-                    if (current.Maplist[i].UpMap != null)
-                    {
-                        dir[(int)Door.DoorType.Up] = true;
-                        count++;
-                    }
-                    if (current.Maplist[i].DownMap != null)
-                    {
-                        dir[(int)Door.DoorType.Down] = true;
-                        count++;
-                    }
-                    //주변에 존재하는 연결된 방의 개수를 가지고 방의 크기를 결정한다.
-
-                    //100% 큰방
-                    if (count <= 2)//길이 하나 또는 두개인 방은 무조건 작은방 이면서 상점과, 음식점이 없으면 상점과 음식점이 된다.
-                    {
-                        int rnd = UnityEngine.Random.Range(0, 100);
-                        if (current.RestaurantCount < option.MaxRestaurant)
-                        {
-                            /**/
-                            GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.Restaurant);
-                            current.MapObjList[i] = GameObject.Instantiate(obj);
-                            /**/
-
-                            current.RestaurantCount++;
-                            //Debug.Log($"{current.Maplist[i].Num}번째방 레스토랑");
-                        }
-                        else if (current.ShopCount < option.MaxShop)
-                        {
-                            /**/
-                            GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.Shop);
-                            current.MapObjList[i] = GameObject.Instantiate(obj);
-                            /**/
-
-                            current.ShopCount++;
-                            //Debug.Log($"{current.Maplist[i].Num}번째방 상점");
-                        }
-                        else
-                        {
-
-                            if (rnd < 70)
-                            {
-                                GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.SMALL);
-                                current.MapObjList[i] = GameObject.Instantiate(obj);
-
-                                //Debug.Log($"{current.Maplist[i].Num}번째방 작은방");
-                            }
-                            else
-                            {
-                                /**/
-                                GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.MEDIUM);
-                                current.MapObjList[i] = GameObject.Instantiate(obj);
-                                /**/
-
-                                //Debug.Log($"{current.Maplist[i].Num}번째방 중간방");
-                            }
-
-                        }
-                    }
-                    else if (count <= 3)//70%중간방,30%큰방
-                    {
-                        int rnd = UnityEngine.Random.Range(0, 100);
-                        if (rnd < 70)
-                        {
-                            GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.MEDIUM);
-                            current.MapObjList[i] = GameObject.Instantiate(obj);
-
-                            //Debug.Log($"{current.Maplist[i].Num}번째방 중간방");
-                        }
-                        else
-                        {
-                            GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.LARGE);
-                            current.MapObjList[i] = GameObject.Instantiate(obj);
-
-                            //Debug.Log($"{current.Maplist[i].Num}번째방 큰방");
-                        }
-                    }
-                    else if (count <= 4)//길이 두개있는방도 레스토랑과 상점방이 없으면 번호가 빠른 방이 레스토랑과 상점방으로 뽑힌다.
-                    {
-                        GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.LARGE);
-                        current.MapObjList[i] = GameObject.Instantiate(obj);
-
-                        //Debug.Log($"{current.Maplist[i].Num}번째방 큰방");
-                    }
-                }
-            }
+            PercentageMapGenerator(i);
 
             if (current.MapObjList[i] != null)
             {
@@ -243,15 +141,16 @@ public class MapSpawner : Singleton<MapSpawner>
                     //문이 존재 해야 하는데 생성된 맵이 해당위치에 문이 없는 방이면 다시뽑게 한다.
                     if (dir[a])
                     {
-                        /*if (current.MapObjList[i].GetComponent<BaseStage>().door[a] == null)
+                        if (current.MapObjList[i].GetComponent<BaseStage>().door[a] == null)
                         {
                             flag = true;
                             GameObject.Destroy(current.MapObjList[i]);
                             break;
-                        }*/
+                        }
                     }
                 }
             }
+
             if (flag)
             {
                 i--;
@@ -264,12 +163,138 @@ public class MapSpawner : Singleton<MapSpawner>
                 LinkedData data = SetLinkingData(i);
                 current.MapObjList[i].GetComponent<BaseStage>().StageLinkedData = data;
                 //obj.transform.position = new Vector3(transform.position.x + (x * interval), transform.position.y + ((y * interval) * -1));
-                //Debug.Log($"{i}번방 링크세팅");
+                Debug.Log($"{i}번방 링크세팅");
             }
 
         }//for
+    }
 
-    }//function
+    void DirDoorInit()
+    {
+        for (int b = 0; b < dir.Length; b++)
+        {
+            dir[b] = false;
+        }
+    }
+
+    void PercentageMapGenerator(int i)
+    {
+        int count = 0;
+
+        //DirDoorInit(ref dir);
+
+        if (current.Maplist[i] != null)
+        {
+            //처음은 시작방
+            if (current.Maplist[i].Num == 0)
+            {
+                StageLoadAndContain(MapManager.ROOMTYPE.Start, i);
+                return;
+            }
+            if (current.Maplist[i].Num == current.NowCount - 1)//마지막 방은 끝방으로 한다.
+            {
+                StageLoadAndContain(MapManager.ROOMTYPE.End, i);
+                return;
+            }
+            //0번방과 마지막 방을 빼고는 연결된 방의 개수(연결정보가 존재하는 문의 개수)에 따라 방의 클래스를 랜덤으로 정해준다.
+
+            if (current.Maplist[i].RightMap != null)
+            {
+                dir[(int)Door.DoorType.Right] = true;
+                count++;
+            }
+            if (current.Maplist[i].LeftMap != null)
+            {
+                dir[(int)Door.DoorType.Left] = true;
+                count++;
+            }
+            if (current.Maplist[i].UpMap != null)
+            {
+                dir[(int)Door.DoorType.Up] = true;
+                count++;
+            }
+            if (current.Maplist[i].DownMap != null)
+            {
+                dir[(int)Door.DoorType.Down] = true;
+                count++;
+            }
+            //주변에 존재하는 연결된 방의 개수를 가지고 방의 크기를 결정한다.
+
+            //100% 큰방
+            if (count <= 2)//길이 하나 또는 두개인 방은 무조건 작은방 이면서 상점과, 음식점이 없으면 상점과 음식점이 된다.
+            {
+                int rnd = UnityEngine.Random.Range(0, 100);
+                if (current.RestaurantCount < option.MaxRestaurant)
+                {
+                    StageLoadAndContain(MapManager.ROOMTYPE.Restaurant, i);
+                    current.RestaurantCount++;
+                    //Debug.Log($"{current.Maplist[i].Num}번째방 레스토랑");
+
+                    return;
+                }
+
+                if (current.ShopCount < option.MaxShop)
+                {
+                    StageLoadAndContain(MapManager.ROOMTYPE.Shop, i);
+                    current.ShopCount++;
+                    //Debug.Log($"{current.Maplist[i].Num}번째방 상점")
+
+                    return;
+                }
+                else
+                {
+                    if (rnd < 70)
+                    {
+                        StageLoadAndContain(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.SMALL, i);
+                        //Debug.Log($"{current.Maplist[i].Num}번째방 작은방");
+                        return;
+                    }
+                    if (rnd >= 70)
+                    {
+                        StageLoadAndContain(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.MEDIUM, i);
+                        //Debug.Log($"{current.Maplist[i].Num}번째방 중간방");
+                        return;
+                    }
+                }
+            }
+
+            if (count <= 3)//70%중간방,30%큰방
+            {
+                int rnd = UnityEngine.Random.Range(0, 100);
+                if (rnd < 70)
+                {
+                    StageLoadAndContain(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.MEDIUM, i);
+                    //Debug.Log($"{current.Maplist[i].Num}번째방 중간방");
+                    return;
+                }
+                if (rnd >= 70)
+                {
+                    StageLoadAndContain(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.LARGE, i);
+                    //Debug.Log($"{current.Maplist[i].Num}번째방 큰방");
+                    return;
+                }
+            }
+
+            if (count <= 4)//길이 두개있는방도 레스토랑과 상점방이 없으면 번호가 빠른 방이 레스토랑과 상점방으로 뽑힌다.
+            {
+                StageLoadAndContain(MapManager.ROOMTYPE.NOMAL, MapManager.ROOMCLASS.LARGE, i);
+                //Debug.Log($"{current.Maplist[i].Num}번째방 큰방");
+            }
+        }
+    }
+
+    void StageLoadAndContain(MapManager.ROOMTYPE roomType, int i)
+    {
+        GameObject obj = Managers.Map.StageLoad(roomType);
+        current.MapObjList[i] = GameObject.Instantiate(obj);
+    }
+
+    void StageLoadAndContain(MapManager.ROOMTYPE roomType, MapManager.ROOMCLASS roomClass, int i)
+    {
+        GameObject obj = Managers.Map.StageLoad(roomType,roomClass);
+        current.MapObjList[i] = GameObject.Instantiate(obj);
+    }
+    #endregion
 
     public void ShowMaps()
     {
@@ -314,15 +339,10 @@ public class MapSpawner : Singleton<MapSpawner>
         int rnd = UnityEngine.Random.Range(0, list.Count);
         int index = list[rnd];
         GameObject.Destroy(current.MapObjList[index]);
-        GameObject obj = mapmanager.StageLoad(MapManager.ROOMTYPE.Boss);
+        GameObject obj = Managers.Map.StageLoad(MapManager.ROOMTYPE.Boss);
         current.MapObjList[index] = GameObject.Instantiate(obj);
         current.MapObjList[index].GetComponent<BaseStage>().StageLinkedData = SetLinkingData(index);
     }
-
-
-    int co = 0;
-
-    
 
     //linkeddata에서 어느방향이 연결되어 있는 지 확인하고
     //prefabs에서 해당방향에 방이 현재 만들어져 있는지 확인하고
@@ -516,13 +536,13 @@ public class MapSpawner : Singleton<MapSpawner>
     }
 
 
-    public void CreateStageData(int x, int y)
+    /*public void CreateStageData(int x, int y)
     {
         int yval = option.MaxListSize;
         if (current.Maplist[x + (y * yval)] == null)
         {
 
         }
-    }
+    }*/
     //맵스폰하고 스폰된 맵을 맵 매니저한테 넘겨준다.
 }

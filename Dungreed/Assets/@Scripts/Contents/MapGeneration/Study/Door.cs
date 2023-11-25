@@ -197,7 +197,6 @@ public class Door : MonoBehaviour
                             ParentStage.GetComponent<BaseStage>().Roominfo[index.x + (index.y * size)] = (int)BaseStage.TileElement.Door;
                             break;
                         }
-
                     }
                 }
 
@@ -265,7 +264,6 @@ public class Door : MonoBehaviour
 
         size.x = DoorEndIndex.x - DoorStartIndex.x + 1;
         size.y = DoorStartIndex.y - DoorEndIndex.y + 1;
-
     }
 
     //캐릭터가 문에 들어오면 이어져 있는 방으로 이동 시켜 준다.
@@ -281,7 +279,6 @@ public class Door : MonoBehaviour
         }
 
     }
-
 
     public void GoNextMap(GameObject Player)
     {
@@ -325,7 +322,6 @@ public class Door : MonoBehaviour
         WallTilemap = null;
         BackTilemap = null;
         MoveableTilemap = null;
-
 
         MainWallTilemap = null;
         MainBackTilemap = null;

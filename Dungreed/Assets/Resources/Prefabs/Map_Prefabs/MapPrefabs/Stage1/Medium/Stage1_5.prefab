@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5238967725190849926}
   - component: {fileID: 5238967725190849927}
   - component: {fileID: 5238967725190849924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Moveable
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -419,7 +419,7 @@ GameObject:
   - component: {fileID: 5238967725718102038}
   - component: {fileID: 5238967725718102032}
   - component: {fileID: 5238967725718102033}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: BackGround
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3750,7 +3750,7 @@ GameObject:
   - component: {fileID: 5238967725976996667}
   - component: {fileID: 5238967725976996664}
   - component: {fileID: 5238967725976996665}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Wall
   m_TagString: wall
   m_Icon: {fileID: 0}
@@ -8583,10 +8583,6 @@ PrefabInstance:
       value: LeftDoor
       objectReference: {fileID: 0}
     - target: {fileID: 1774680362655306091, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
-      propertyPath: m_RootOrder
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1774680362655306091, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1
       objectReference: {fileID: 0}
@@ -8626,63 +8622,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -6445149569317612242, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1774680362655306090, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1544042504226757992}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
---- !u!1 &2092239086956887264 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1774680362655306090, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
-  m_PrefabInstance: {fileID: 408084008391339402}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1544042504226757992
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092239086956887264}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191edf84b9a41374e90cfe8179416c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WallTilemap: {fileID: 0}
-  BackTilemap: {fileID: 0}
-  MoveableTilemap: {fileID: 0}
-  MainWallTilemap: {fileID: 0}
-  MainBackTilemap: {fileID: 0}
-  MainMoveableTilemap: {fileID: 0}
-  tile: {fileID: 0}
-  StartPos: {fileID: 0}
-  EndPos: {fileID: 0}
-  DoorStartIndex: {x: 0, y: 0, z: 0}
-  DoorEndIndex: {x: 0, y: 0, z: 0}
-  MainStartIndex: {x: 0, y: 0, z: 0}
-  MainEndIndex: {x: 0, y: 0, z: 0}
-  size: {x: 0, y: 0}
-  NextRoom: {fileID: 0}
-  coll: {fileID: 0}
-  PlayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  type: 0
-  collision: {fileID: 0}
-  ParentStage: {fileID: 0}
-  TeleportPos: {fileID: 0}
-  nowdoorlocked: 0
-  SealStoneAni: {fileID: 0}
-  SealStoneOpenAni: {fileID: 0}
-  SealStoneCloseAni: {fileID: 0}
-  Doorparticle: {fileID: 0}
-  MapInfoPos: {fileID: 0}
-  StartIndex: {x: 0, y: 0, z: 0}
-  ParentStartIndex: {x: 0, y: 0, z: 0}
 --- !u!4 &2092239086956887265 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1774680362655306091, guid: b33d8f208c39aba4fb656930f4fa6716, type: 3}
@@ -8696,10 +8640,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 5238967726944787263}
     m_Modifications:
-    - target: {fileID: 122062613504654174, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
     - target: {fileID: 122062613504654174, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
       propertyPath: m_LocalPosition.x
       value: 15
@@ -8744,63 +8684,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: UpDoor
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 469446697517157481, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 122062613504654175, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 4305429655937785463}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
---- !u!1 &674177561005464274 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 122062613504654175, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
-  m_PrefabInstance: {fileID: 642483847112024461}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &4305429655937785463
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 674177561005464274}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191edf84b9a41374e90cfe8179416c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WallTilemap: {fileID: 0}
-  BackTilemap: {fileID: 0}
-  MoveableTilemap: {fileID: 0}
-  MainWallTilemap: {fileID: 0}
-  MainBackTilemap: {fileID: 0}
-  MainMoveableTilemap: {fileID: 0}
-  tile: {fileID: 0}
-  StartPos: {fileID: 0}
-  EndPos: {fileID: 0}
-  DoorStartIndex: {x: 0, y: 0, z: 0}
-  DoorEndIndex: {x: 0, y: 0, z: 0}
-  MainStartIndex: {x: 0, y: 0, z: 0}
-  MainEndIndex: {x: 0, y: 0, z: 0}
-  size: {x: 0, y: 0}
-  NextRoom: {fileID: 0}
-  coll: {fileID: 0}
-  PlayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  type: 0
-  collision: {fileID: 0}
-  ParentStage: {fileID: 0}
-  TeleportPos: {fileID: 0}
-  nowdoorlocked: 0
-  SealStoneAni: {fileID: 0}
-  SealStoneOpenAni: {fileID: 0}
-  SealStoneCloseAni: {fileID: 0}
-  Doorparticle: {fileID: 0}
-  MapInfoPos: {fileID: 0}
-  StartIndex: {x: 0, y: 0, z: 0}
-  ParentStartIndex: {x: 0, y: 0, z: 0}
 --- !u!4 &674177561005464275 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 122062613504654174, guid: 8cf3e77cfad9dad4f823254af7a75c29, type: 3}
@@ -9016,10 +8904,6 @@ PrefabInstance:
     m_TransformParent: {fileID: 5238967726944787263}
     m_Modifications:
     - target: {fileID: 3951688192136912718, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
-      propertyPath: m_RootOrder
-      value: 2
-      objectReference: {fileID: 0}
-    - target: {fileID: 3951688192136912718, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26
       objectReference: {fileID: 0}
@@ -9063,68 +8947,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: RightDoor
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 3951688192136912717, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 3951688192136912719, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 7703505099732584714}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
 --- !u!4 &1738635506395414166 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3951688192136912718, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
   m_PrefabInstance: {fileID: 3384429493039489496}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1738635506395414167 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 3951688192136912719, guid: 8c039ae1c60b5ca4896fa0a927b3b035, type: 3}
-  m_PrefabInstance: {fileID: 3384429493039489496}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &7703505099732584714
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1738635506395414167}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191edf84b9a41374e90cfe8179416c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WallTilemap: {fileID: 0}
-  BackTilemap: {fileID: 0}
-  MoveableTilemap: {fileID: 0}
-  MainWallTilemap: {fileID: 0}
-  MainBackTilemap: {fileID: 0}
-  MainMoveableTilemap: {fileID: 0}
-  tile: {fileID: 0}
-  StartPos: {fileID: 0}
-  EndPos: {fileID: 0}
-  DoorStartIndex: {x: 0, y: 0, z: 0}
-  DoorEndIndex: {x: 0, y: 0, z: 0}
-  MainStartIndex: {x: 0, y: 0, z: 0}
-  MainEndIndex: {x: 0, y: 0, z: 0}
-  size: {x: 0, y: 0}
-  NextRoom: {fileID: 0}
-  coll: {fileID: 0}
-  PlayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  type: 0
-  collision: {fileID: 0}
-  ParentStage: {fileID: 0}
-  TeleportPos: {fileID: 0}
-  nowdoorlocked: 0
-  SealStoneAni: {fileID: 0}
-  SealStoneOpenAni: {fileID: 0}
-  SealStoneCloseAni: {fileID: 0}
-  Doorparticle: {fileID: 0}
-  MapInfoPos: {fileID: 0}
-  StartIndex: {x: 0, y: 0, z: 0}
-  ParentStartIndex: {x: 0, y: 0, z: 0}
 --- !u!1001 &4708283340360855384
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9136,10 +8968,6 @@ PrefabInstance:
     - target: {fileID: 8079646466228474694, guid: a66927521c328bb419441f66277e50cd, type: 3}
       propertyPath: m_Name
       value: DownDoor
-      objectReference: {fileID: 0}
-    - target: {fileID: 8079646466228474695, guid: a66927521c328bb419441f66277e50cd, type: 3}
-      propertyPath: m_RootOrder
-      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8079646466228474695, guid: a66927521c328bb419441f66277e50cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -9181,63 +9009,11 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: -619099398854076707, guid: a66927521c328bb419441f66277e50cd, type: 3}
+    m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 8079646466228474694, guid: a66927521c328bb419441f66277e50cd, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 2313584340469114144}
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a66927521c328bb419441f66277e50cd, type: 3}
---- !u!1 &3564464310171270174 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8079646466228474694, guid: a66927521c328bb419441f66277e50cd, type: 3}
-  m_PrefabInstance: {fileID: 4708283340360855384}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &2313584340469114144
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3564464310171270174}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 191edf84b9a41374e90cfe8179416c9d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  WallTilemap: {fileID: 0}
-  BackTilemap: {fileID: 0}
-  MoveableTilemap: {fileID: 0}
-  MainWallTilemap: {fileID: 0}
-  MainBackTilemap: {fileID: 0}
-  MainMoveableTilemap: {fileID: 0}
-  tile: {fileID: 0}
-  StartPos: {fileID: 0}
-  EndPos: {fileID: 0}
-  DoorStartIndex: {x: 0, y: 0, z: 0}
-  DoorEndIndex: {x: 0, y: 0, z: 0}
-  MainStartIndex: {x: 0, y: 0, z: 0}
-  MainEndIndex: {x: 0, y: 0, z: 0}
-  size: {x: 0, y: 0}
-  NextRoom: {fileID: 0}
-  coll: {fileID: 0}
-  PlayerMask:
-    serializedVersion: 2
-    m_Bits: 0
-  type: 0
-  collision: {fileID: 0}
-  ParentStage: {fileID: 0}
-  TeleportPos: {fileID: 0}
-  nowdoorlocked: 0
-  SealStoneAni: {fileID: 0}
-  SealStoneOpenAni: {fileID: 0}
-  SealStoneCloseAni: {fileID: 0}
-  Doorparticle: {fileID: 0}
-  MapInfoPos: {fileID: 0}
-  StartIndex: {x: 0, y: 0, z: 0}
-  ParentStartIndex: {x: 0, y: 0, z: 0}
 --- !u!4 &3564464310171270175 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8079646466228474695, guid: a66927521c328bb419441f66277e50cd, type: 3}
