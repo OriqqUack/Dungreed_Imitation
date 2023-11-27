@@ -3,7 +3,22 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Arsha_AttackTag
+  - wall
+  - Door
+  - Player_Attack
+  - Slot
+  - Coin
+  - Tresure
+  - Boss
+  - Boss_Attack
+  - AbyssGuardian
+  - Arsha
+  - SkelDog_AttackTag
+  - SkelDog
+  - AbyssGuardian_AttackTag
+  - Floor
   layers:
   - Default
   - TransparentFX
